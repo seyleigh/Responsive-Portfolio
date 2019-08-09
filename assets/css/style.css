@@ -1,0 +1,208 @@
+
+body {
+    margin: auto;
+    background-image: url("../images/what-the-hex/what-the-hex.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#logo {
+    background: #4aaaa5;
+    width: 240px;
+    height: 60px;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 20px;
+    color: #fff;
+    margin-left: 100px;
+    
+
+}
+
+header {
+    position: relative;
+    background: #fff;
+    height: 80px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+
+a {
+    color: #6b6767;
+    text-decoration: none;
+}
+
+
+.about {
+    /* background: #2e2d2a; */
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    float: right;
+    position: relative;
+    top: -55px;
+    right: 40px;
+}
+
+.portfolio {
+    /* background: #2e2d2a; */
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    float: right;
+    position: relative;
+    top: -55px;
+    right: 40px;
+}
+
+.contact {
+    /* background: #2e2d2a; */
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    float: right;
+    position: relative;
+    top: -55px;
+    right: 40px;
+}
+
+
+.main {
+    max-width: 960px;
+    padding: 30px;
+    background: #eee;
+    margin: auto;
+
+}
+
+.pmain {
+    max-width: 960px;
+    padding: 30px;
+    background: #eee;
+    margin: auto;
+    min-height: calc(100vh - 70px);
+}
+
+h2 {
+    font-size: 30px;
+    padding-bottom: 10px;
+    color: #4aaaa5;
+    
+}
+
+hr{ 
+    margin-bottom: 30px;
+}
+
+p {
+    line-height: 40px;
+    font-size: 20px;
+
+}
+
+img {
+    height: 250px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 5px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; 
+    box-sizing: border-box;
+    margin-top: 10px; 
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+  }
+
+  .container {
+    position: relative;
+}
+
+  .row2 {
+      margin-top: 25px;
+  }
+
+  .text-block {
+    position: absolute;
+    top: 150px;
+    text-align: center;
+    width: 230px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+  }
+
+  .text-block2 {
+    position: absolute;
+    top: 150px;
+    left: 280px;
+    text-align: center;
+    width: 230px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+  }
+
+  .text-block3 {
+    position: absolute;
+    top: 150px;
+    right: 150px;
+    text-align: center;
+    width: 230px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+  }
+
+  .text-block4 {
+    position: absolute;
+    top: 420px;
+    text-align: center;
+    width: 230px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+  }
+
+  .text-block5 {
+    position: absolute;
+    top: 420px;
+    left: 280px;
+    text-align: center;
+    width: 230px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+  }
+
+  label {
+      color: #6b6767;
+  }
+  
+
+footer {
+    background: #6b6767;
+    margin-top: 150px;
+    border-top: 8px solid #4aaaa5;
+    height: 60px;
+}
