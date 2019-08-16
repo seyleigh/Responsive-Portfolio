@@ -257,14 +257,15 @@ input[type=submit] {
         #main-container{
            max-width: 90%;
            margin: auto;
-           padding-bottom: 0;
         }
-        .main-section{
-            margin-bottom: 15px;
-            padding-bottom: 0;
-        }
+    
         .work {
             width: 45%;
+          margin-top: 10px ;
+          margin-bottom: 10px;
+        }
+        .main-section div.work:nth-child(even){
+            margin-right: 30px;
         }
         
         .auth-image {
