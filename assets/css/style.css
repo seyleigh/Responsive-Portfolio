@@ -260,7 +260,7 @@ input[type=submit] {
         }
     
         .work {
-            width: 45%;
+          width: 45%;
           margin-top: 10px ;
           margin-bottom: 10px;
         }
@@ -276,4 +276,33 @@ input[type=submit] {
         }
         
     }
-    @media screen and (max-width: 640px) {}
+    @media screen and (max-width: 640px) {
+        body {
+            font-size: 13px;
+            margin: 0;
+        }
+        #logo {
+            width: 100%;
+            margin-left:0;
+        }
+        #masthead {
+            position: static;
+        }
+        nav {
+            margin-right: 35%;
+            margin-top: 15px;
+        }
+        #main-container {
+            max-width: 95%;
+            padding-top: 0;
+            line-height: 2em;
+        }
+        .auth-image {
+            width: 100%;
+            margin-bottom: 20px; 
+        }
+        .work {
+            width: 100%;
+        }
+        
+    }
